@@ -23,6 +23,7 @@
     --c-webflow:#6a52c9;
     --c-pagefly:#c1782c;
     --c-ghl:#b23a68;
+    --c-wix:#2a9d8f;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
@@ -89,7 +90,7 @@
 
   /* PLATFORM STRIP */
   #platforms{padding-top:70px; padding-bottom:60px;}
-  .plat-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden;}
+  .plat-grid{display:grid; grid-template-columns:repeat(6,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden;}
   .plat-card{background:var(--paper-alt); padding:28px 22px; display:flex; flex-direction:column; gap:10px;}
   .plat-card .dot{width:9px; height:9px; border-radius:50%;}
   .plat-card h4{font-size:16px; font-weight:600;}
@@ -207,7 +208,7 @@
     <div class="hero-copy">
       <div class="eyebrow">Website Developer · Kolhapur, India</div>
       <h1>One developer,<br>five <span class="accent">platforms</span>, real stores.</h1>
-      <p class="lead">2.5+ years building and maintaining 18 live websites across Shopify, WordPress, Webflow, PageFly, and GoHighLevel — for e-commerce brands, SaaS startups, agencies, and local businesses.</p>
+      <p class="lead">2.5+ years building and maintaining 21 live websites across Shopify, WordPress, Webflow, PageFly, GoHighLevel, and Wix — for e-commerce brands, SaaS startups, agencies, and local businesses.</p>
       <div class="herobtns">
         <a class="btn btn-primary" href="#work">Browse the work ↓</a>
         <a class="btn btn-ghost" href="mailto:aishwaryasutar22102001@gmail.com">Start a project</a>
@@ -219,8 +220,8 @@
   </div>
   <div class="wrap">
     <div class="statbar">
-      <div class="stat"><div class="num">18</div><div class="lbl">Live sites featured</div></div>
-      <div class="stat"><div class="num">5</div><div class="lbl">Platforms worked in</div></div>
+      <div class="stat"><div class="num">21</div><div class="lbl">Live sites featured</div></div>
+      <div class="stat"><div class="num">6</div><div class="lbl">Platforms worked in</div></div>
       <div class="stat"><div class="num">2.5+</div><div class="lbl">Years experience</div></div>
       <div class="stat"><div class="num">50+</div><div class="lbl">Projects delivered total</div></div>
     </div>
@@ -236,6 +237,7 @@
       <div class="plat-card"><span class="dot" style="background:var(--c-webflow)"></span><h4>Webflow</h4><p>SaaS and product marketing sites with CMS-driven content and segmented landing pages.</p></div>
       <div class="plat-card"><span class="dot" style="background:var(--c-pagefly)"></span><h4>PageFly</h4><p>High-converting custom landing and product pages built on top of Shopify.</p></div>
       <div class="plat-card"><span class="dot" style="background:var(--c-ghl)"></span><h4>GoHighLevel</h4><p>Automations, funnels, pipelines, calendar booking, and workflows for client acquisition.</p></div>
+      <div class="plat-card"><span class="dot" style="background:var(--c-wix)"></span><h4>Wix</h4><p>Wix CMS builds for local service businesses and small studios.</p></div>
     </div>
   </div>
 </section>
@@ -254,6 +256,7 @@
       <button class="filter-btn" data-filter="webflow"><span class="dot" style="background:var(--c-webflow)"></span>Webflow</button>
       <button class="filter-btn" data-filter="pagefly"><span class="dot" style="background:var(--c-pagefly)"></span>PageFly</button>
       <button class="filter-btn" data-filter="ghl"><span class="dot" style="background:var(--c-ghl)"></span>GoHighLevel</button>
+      <button class="filter-btn" data-filter="wix"><span class="dot" style="background:var(--c-wix)"></span>Wix</button>
     </div>
 
     <div class="grid-work" id="workgrid">
@@ -480,6 +483,43 @@
         </div>
       </div>
 
+      <!-- WIX -->
+      <div class="card" data-cat="wix">
+        <div class="topbar" style="background:var(--c-wix)"></div>
+        <div class="cardbody">
+          <div class="plat-tag"><span class="dot" style="background:var(--c-wix)"></span>Wix CMS</div>
+          <h3>MH2 Dental</h3>
+          <div class="domain">mh2dental.com</div>
+          <p>Multi-location site for a Toronto dental clinic group, with location-specific booking links and service pages.</p>
+          <div class="tags"><span class="tag">Multi-location</span><span class="tag">Booking</span></div>
+          <a class="visit" href="https://www.mh2dental.com/" target="_blank" rel="noopener">Visit live site →</a>
+        </div>
+      </div>
+
+      <div class="card" data-cat="wix">
+        <div class="topbar" style="background:var(--c-wix)"></div>
+        <div class="cardbody">
+          <div class="plat-tag"><span class="dot" style="background:var(--c-wix)"></span>Wix CMS</div>
+          <h3>Sharptilt Studio</h3>
+          <div class="domain">sharptilt.com</div>
+          <p>Portfolio-style site for a residential and commercial architecture design studio, built to showcase project galleries.</p>
+          <div class="tags"><span class="tag">Portfolio layout</span><span class="tag">Galleries</span></div>
+          <a class="visit" href="https://www.sharptilt.com/" target="_blank" rel="noopener">Visit live site →</a>
+        </div>
+      </div>
+
+      <div class="card" data-cat="wix">
+        <div class="topbar" style="background:var(--c-wix)"></div>
+        <div class="cardbody">
+          <div class="plat-tag"><span class="dot" style="background:var(--c-wix)"></span>Wix CMS</div>
+          <h3>Lifetime Tilers</h3>
+          <div class="domain">lifetimetilers.com</div>
+          <p>Site for a Massachusetts tile, slate, and copper roofing company, with service pages and customer reviews.</p>
+          <div class="tags"><span class="tag">Local business</span><span class="tag">Reviews</span></div>
+          <a class="visit" href="https://www.lifetimetilers.com/" target="_blank" rel="noopener">Visit live site →</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -540,30 +580,30 @@
       <div class="trow">
         <div class="when">2025 — 2026</div>
         <div>
-          <h3>Shopify Developer</h3>
+          <h3>Senior Web Developer</h3>
           <div class="co">Walstar Technologies, Kolhapur</div>
           <ul>
-            <li>Developed & customized Shopify themes in Liquid, HTML, CSS, JS</li>
-            <li>Built dynamic sections and Shopify 2.0 schema-driven features</li>
-            <li>Integrated third-party apps & APIs (Klaviyo, Recharge, etc.)</li>
-            <li>Improved website performance and load speed</li>
-            <li>Managed products, collections, and metafields</li>
-            <li>Enhanced UI/UX and resolved bugs based on client needs</li>
+            <li>Built and customized sites across Shopify, WordPress, Webflow, PageFly, GoHighLevel, and Wix</li>
+            <li>Developed custom Shopify 2.0 themes and dynamic, schema-driven sections in Liquid</li>
+            <li>Built GoHighLevel funnels, pipelines, calendar booking, and automated workflows for client acquisition</li>
+            <li>Integrated third-party apps and APIs (Klaviyo, Recharge, and more) across platforms</li>
+            <li>Improved site performance, load speed, and SEO across client projects</li>
+            <li>Managed products, collections, metafields, and CMS content for growing catalogues</li>
           </ul>
         </div>
       </div>
       <div class="trow">
         <div class="when">2024 — 2025</div>
         <div>
-          <h3>Junior Shopify Developer</h3>
+          <h3>Junior Web Developer</h3>
           <div class="co">Walstar Technologies, Kolhapur</div>
           <ul>
-            <li>Assisted in Shopify store setup and customization</li>
-            <li>Built responsive layouts and reusable sections</li>
-            <li>Implemented product filters, sliders, and tab features</li>
-            <li>Worked on Shopify apps (Upsell, Bundle, Reviews)</li>
-            <li>Handled basic SEO and speed optimization</li>
-            <li>Supported clients with store updates and maintenance</li>
+            <li>Assisted in store and site setup, customization, and responsive layout builds</li>
+            <li>Implemented product filters, sliders, tabs, and reusable sections</li>
+            <li>Worked with platform apps for upsells, bundles, and reviews</li>
+            <li>Built and maintained WordPress (Elementor) and Wix sites for local businesses</li>
+            <li>Handled basic SEO, speed optimization, and ongoing client support</li>
+            <li>Supported clients with regular site updates and maintenance</li>
           </ul>
         </div>
       </div>
@@ -576,7 +616,7 @@
     <div class="eyebrow">Key achievements</div>
     <div class="ach-grid">
       <div class="ach-item"><b>50+ projects delivered</b>Completed for international clients with high satisfaction.</div>
-      <div class="ach-item"><b>Five platforms, one developer</b>Shopify, WordPress, Webflow, PageFly, and GoHighLevel — able to pick the right tool per project.</div>
+      <div class="ach-item"><b>Six platforms, one developer</b>Shopify, WordPress, Webflow, PageFly, GoHighLevel, and Wix — able to pick the right tool per project.</div>
       <div class="ach-item"><b>End-to-end ownership</b>From design through deployment on every build.</div>
       <div class="ach-item"><b>Conversion-focused</b>Features implemented to lift UX and improve conversion rates.</div>
       <div class="ach-item"><b>Long-term store health</b>Ongoing maintenance that keeps stores fast and usable.</div>
